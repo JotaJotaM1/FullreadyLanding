@@ -1,0 +1,151 @@
+footer {
+    width: 100%;
+    background-color: white;
+    padding-top: 80px;
+}
+
+.footer_nav {
+    padding: 50px;
+}
+
+.cnt-ul-Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.li-Footer a {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+}
+
+.textFooter {
+    font-family: "Syncopate", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    line-height: 19.6px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cnt-UlSocialFooter,
+ul li,
+.textCopy,
+.textTerm {
+    text-decoration: none;
+    color: black;
+}
+
+.cnt-imgLogoFooter,
+.cnt-SocialIcons,
+.cnt-legalTerm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cnt-UlSocialFooter ul {
+    padding: 20px 0;
+    font-size: 25px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pruebaFooter {
+    border: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.divider {
+    width: 95%;
+    height: 1px;
+    background-color: #DADADA;
+    margin: 15px auto;
+}
+
+.textCopy,
+.textTerm {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 19.6px;
+    color: black;
+}
+
+.cnt-TerminConditions {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    padding: 15px 0 30px;
+}
+
+.textTerm {
+    font-weight: 700;
+}
+
+.li-Footer {
+    position: relative;
+    list-style: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.li-Footer::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #FF00DA;
+    transition: width 0.3s ease;
+}
+
+.li-Footer:hover {
+    color: #FF00DA;
+}
+
+.li-Footer:hover::after {
+    width: 100%;
+}
+
+.social-link {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Opcional: efecto hover sutil */
+.social-link:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+/* Asegura que los íconos mantengan su alineación */
+.social-link i {
+    vertical-align: middle;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .cnt-ul-Footer {
+        flex-direction: row;
+    }
+
+    .footer_nav {
+        padding: 80px 50px 50px;
+    }
+}

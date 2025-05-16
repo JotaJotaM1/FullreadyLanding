@@ -1,0 +1,10 @@
+/* Icons Bootstrap */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Syncopate:wght@400;700&display=swap');
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}

@@ -1,0 +1,843 @@
+main {
+    font-family: "Syncopate", sans-serif;
+}
+
+.sectionOne {
+    background: linear-gradient(135deg, #5200ff, #ff00ff);
+    background-size: cover;
+}
+
+.cnt-One {
+    padding-top: 70px;
+}
+
+.pOne {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.7px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+}
+
+.titleOne {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+}
+
+.pTwo {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #FB3DD2;
+    padding-bottom: 10px;
+}
+
+.pThree {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    padding-bottom: 11px;
+}
+
+.btnH1,
+.ctnBtn1024 {
+    display: flex;
+    justify-content: center;
+}
+
+.cntBtnOne button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 62px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #0B000E;
+    color: white;
+    padding: 8.49px 33.96px 8.49px 33.96px;
+    border: 0.7px solid white;
+    cursor: pointer;
+}
+
+.shop-link {
+    color: white;
+    text-decoration: none;
+}
+
+.bi-arrow-right {
+    font-size: 23px;
+    padding-left: 10px;
+}
+
+.cnt-Frasco3 {
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -20px;
+}
+
+.cnt-FrasImage {
+    position: relative;
+}
+
+.image7 {
+    right: 108px;
+    top: 22rem;
+    position: absolute;
+}
+
+.cnt-h2 h2,
+.cnt-h2Exclu h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: center;
+    color: black;
+    padding: 0 10px;
+}
+
+.cnt-h2 p,
+.cnt-h2Exclu p {
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 29px 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.cnt-ballHome {
+    padding-top: 120px;
+}
+
+.cnt-fatherImgCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cntImgCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image3,
+.image4,
+.image5,
+.image6 {
+    width: 32.43px;
+    height: 32.43px;
+}
+
+.cntImgCard p {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    max-width: 100px;
+}
+
+.p3 {
+    color: #8300D9;
+}
+
+.p4 {
+    color: #9300C7;
+}
+
+.p5 {
+    color: #A200B6;
+}
+
+.p6 {
+    color: #CE0080;
+}
+
+.cnt-Three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 384px;
+    background: linear-gradient(to bottom, #1ABBAD, #25A6DD);
+}
+
+.cntGroup2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -9.75rem;
+}
+
+.cntGroup2 img {
+    width: 95%;
+}
+
+.cnt-h2Exclu h2,
+.cnt-h2Exclu p {
+    color: white;
+}
+
+.best-seller {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.shop-now {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.shop-now:hover {
+    background-color: #444;
+}
+
+.cnt-stp,
+.cnt-imgStepp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.cnt-imgStepp {
+    padding: 15px 0;
+}
+
+.cnt-imgStepp img {
+    width: 60px;
+}
+
+.titlleStep,
+.titleFAQ {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: center;
+    color: black;
+    padding: 60px 20px 0;
+}
+
+.titleFAQ {
+    padding-bottom: 50px;
+}
+
+.textStep {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: center;
+    color: #4A4A4A;
+    padding: 30px 20px;
+}
+
+.titileImgStep {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14.57px;
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+}
+
+.textImgStep {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16.8px;
+    text-align: center;
+    color: #717171;
+    padding: 0 50px;
+}
+
+.learMcta {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #BC00F4;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.btn-HomeGetDisco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 12px;
+    text-align: center;
+    background-color: #BC00F4;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border: none;
+    margin-top: 70px;
+    font-family: "Syncopate", sans-serif;
+    cursor: pointer;
+}
+
+.anchorBTNstep {
+    text-decoration: none;
+}
+
+.iconRowgetDisco {
+    font-size: 35px;
+}
+
+.cnt-callToActionOne {
+    background-color: #161428;
+    padding: 40px 20px 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.tittleCTAOne {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18.74px;
+    color: #FFFFFF;
+}
+
+.textCTAOne {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #BCBCBC;
+    padding-top: 20px;
+}
+
+.cnt-callToActionTwo {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../../src/assets/bCTAtwo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: -49px;
+    background-position-y: -30px;
+}
+
+.cnt-titleCtaTwo {
+    padding: 40px 0 30px;
+
+}
+
+.titleCtaTwo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18.74px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.textCtaTwo {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    padding: 20px 2rem 15px;
+}
+
+.cnt-imgCtaTwo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.learMcta {
+    color: white;
+    padding: 44px 0 63px;
+}
+
+.cnt-SliderComments {
+    padding-top: 13rem;
+    background-color: white;
+}
+
+.titleSliderComments {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: center;
+    color: black;
+    padding: 0 10px;
+}
+
+.textSliderComments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: center;
+    color: #4A4A4A;
+    padding: 20px 20px 155px;
+}
+
+.custom-icon2 {
+    padding: 0;
+    font-size: 13px;
+}
+
+.cnt-SliderBackPurple {
+    height: 380px;
+    background: linear-gradient(to bottom, #BA00FF, #8839FE);
+}
+
+.cnt-limitCommets {
+    background-color: #B406FF;
+}
+
+.btnSliderComments {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 15px 6px;
+}
+
+.cnt-stp {
+    padding: 20px 0 90px;
+}
+
+.btnSectiontwo {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 425px) {
+    .image7 {
+        right: 130px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pOne {
+        font-size: 16px;
+        line-height: 21.92px;
+        letter-spacing: 11px;
+
+    }
+
+    .cnt-ballHome {
+        background-size: 500px;
+        background-position-x: 23rem;
+        background-position-y: -2rem;
+    }
+
+    .titleOne {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .pTwo {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .pThree {
+        font-size: 22.18px;
+        line-height: 22.18px;
+    }
+
+    .cntBtnOne button {
+        width: 285px;
+        height: 73px;
+    }
+
+
+    .cnt-Frasco3 {
+        height: 500px;
+    }
+
+    .image7 {
+        right: 290px;
+        top: 26rem;
+    }
+
+    .cnt-h2 h2,
+    .cnt-h2Exclu h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44.8px;
+        text-align: center;
+    }
+
+    .cnt-h2 p,
+    .cnt-h2Exclu p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .cnt-One {
+        padding: 70px 50px 70px;
+    }
+
+
+    .cnt-h2Exclu p {
+        padding-bottom: 36px;
+    }
+
+    .cnt-callToActionOne {
+        background-color: #161428;
+        padding: 40px 60px 30px;
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .image3,
+    .image4,
+    .image5,
+    .image6 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cntGroup2 img {
+        width: 554px;
+        position: relative;
+        top: -61px;
+    }
+
+    .cntImgCard p {
+        font-size: 14px;
+        line-height: 19.6px;
+        padding: 0 20px;
+    }
+
+    .btnSectiontwo {
+        width: 224px;
+        height: 65px;
+    }
+
+    .cnt-Three {
+        padding-top: 62px;
+    }
+
+    .cnt-h2Exclu h2 {
+        padding: 0 63px;
+    }
+
+    .titlleStep {
+        font-size: 32px;
+        line-height: 44.8px;
+        padding: 60px 30px 0;
+    }
+
+    .textStep {
+        font-size: 20px;
+        line-height: 28.4px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .textImgStep {
+        padding: 0 20px;
+    }
+
+    .cnt-FatherImgStep {
+        display: flex;
+        width: 750px;
+        background-image: url(/src/assets/arrowStepOne.png), url(/src/assets/arrowStepTwo.png), url(/src/assets/arrowStepThree.png);
+        background-repeat: no-repeat;
+        background-size: 100px 30px, 100px 30px, 100px 30px;
+        background-position-x: 145px, 328px, 520px;
+        background-position-y: 26%, 10%, 28%;
+    }
+
+    .cnt-imgStepp {
+        background-color: transparent;
+    }
+
+    .titleCtaTwo {
+        font-size: 20px;
+        line-height: 20.82px;
+    }
+
+    .tittleCTAOne {
+        font-size: 32px;
+        line-height: 33.31px;
+    }
+
+    .textCTAOne {
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .titleFAQ {
+        font-size: 32px;
+    }
+
+    .cnt-CTAmediaQuery {
+        width: 425px;
+        height: 399px;
+        margin: 5% 0 0 15%;
+    }
+
+    .cnt-titleCtaTwo {
+        text-align: left;
+    }
+
+    .textCtaTwo {
+        font-size: 19px;
+        line-height: 28.4px;
+        padding: 0;
+    }
+
+    .cnt-callToActionTwo {
+        text-align: left;
+        align-items: start;
+    }
+
+    .cnt-imgCtaTwo {
+        justify-content: start;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sectionOne {
+        background: linear-gradient(44deg, #5200ff, #ff006c);
+    }
+
+    .cnt-fatherImgCard {
+        padding: 30px 70px;
+    }
+
+    .btnH1 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .ctnBtn1024 {
+        justify-content: center;
+        padding: 30px 0 50px;
+    }
+
+    .titlleStep {
+        padding: 60px 133px 0;
+    }
+
+    .cnt-callToActionOne {
+        padding: 100px 130px 30px;
+    }
+
+    .cnt-callToActionTwo {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cnt-imgStepp img {
+        width: 90px;
+    }
+
+    .cnt-FatherImgStep {
+        width: 870px;
+        background-position-x: 148px, 326px, 527px;
+    }
+
+    .cnt-CTAmediaQuery {
+        margin: 2% 0 0 8%;
+    }
+
+    .cnt-mq1024 {
+        display: flex;
+        padding-top: 70px;
+    }
+
+    .cnt-One {
+        width: 40%;
+        margin: 30px 0 0 13%;
+    }
+
+    .cnt-FrasImage {
+        width: 60%;
+        position: relative;
+    }
+
+    .pOne,
+    .titleOne,
+    .pTwo,
+    .pThree {
+        text-align: left;
+    }
+
+    .cnt-Frasco3 {
+        height: 630px;
+        background-image: url('../../../src/assets/Group12.png');
+        background-repeat: no-repeat;
+        background-position-x: 110px;
+        background-position-y: 10px;
+        background-size: 534px 454px;
+    }
+
+    .image7 {
+        right: 358px;
+        top: 34rem;
+    }
+
+    .pTwo {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .nav_items ul li a {
+        font-size: 12px;
+        line-height: 12.49px;
+    }
+
+    .cnt-stp {
+        padding: 40px 0 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cnt-One {
+        width: 70%;
+        margin: 70px 0 0 13%;
+    }
+
+    .pThree {
+        padding-bottom: 40px;
+    }
+
+    .cnt-Frasco3 {
+        background-repeat: no-repeat;
+        background-position-x: 7px;
+        background-position-y: 10px;
+
+    }
+
+    .image7 {
+        right: 522px;
+    }
+
+    .cnt-Frasco3 img {
+        position: relative;
+        right: 140px;
+    }
+
+    .cnt-Two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cnt-Three {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .cnt-h2 {
+        max-width: 900px;
+    }
+
+    .cnt-h2 p {
+        padding: 20px 72px 18px;
+    }
+
+    .cnt-fatherImgCard {
+        max-width: 884px;
+    }
+
+    .cntBtnOne button {
+        width: 230px;
+    }
+
+    .titlleStep {
+        max-width: 755px;
+        margin: 0 auto;
+    }
+
+    .cnt-FatherImgStep {
+        width: 930px;
+        background-position-x: 193px, 412px, 638px;
+        background-position-y: 30%, 14%, 31%;
+    }
+
+    .cnt-callToActionOne {
+        height: 350px;
+    }
+
+    .cnt-callToActionTwo {
+        position: relative;
+        top: -170px;
+    }
+
+    .tittleCTAOne {
+        margin: 0 208px;
+    }
+
+    .cnt-callToActionTwo {
+        background-size: contain;
+        height: 469px;
+    }
+
+    .cnt-CTAmediaQuery {
+        margin: 5% 0 0 20%;
+    }
+
+    .cnt-mediaquery1440 {
+        height: 260px;
+    }
+
+    .cnt-stp {
+        padding: 40px 0 120px;
+    }
+}
