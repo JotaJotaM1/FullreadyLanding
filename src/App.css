@@ -363,7 +363,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('../../../src/assets/bCTAtwo.png');
+    background-image: url('/src/assets/bCTAtwo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: -49px;
